@@ -10,9 +10,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := gz-cmake
 LOCAL_DESCRIPTION := A set of CMake modules that are used by the C++-based Gazebo projects.
 
-LOCAL_LIBRARIES := \
-	assimp
-
 LOCAL_CMAKE_CONFIGURE_ARGS := \
 	-DBUILD_TESTING:BOOL=False
 
