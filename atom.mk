@@ -15,5 +15,7 @@ LOCAL_CMAKE_CONFIGURE_ARGS := \
 
 LOCAL_EXPORT_C_INCLUDES := $(TARGET_OUT_STAGING)/usr/include/gz/cmake5
 
+LOCAL_CXXFLAGS := -std=c++17
+
 include $(BUILD_CMAKE)
 
