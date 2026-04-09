@@ -1,5 +1,26 @@
 ## Gazebo CMake 5.x
 
+### Gazebo CMake 5.1.0 (2026-04-07)
+
+1. Guard GL3Plus include path in FindGzOGRE2
+    * [Pull request #537](https://github.com/gazebosim/gz-cmake/pull/537)
+
+1. Make Whole Program Optimization (WPO) optional on MSVC
+    * [Pull request #532](https://github.com/gazebosim/gz-cmake/pull/532)
+
+1. Fix broken keyserver url by replacing with wget
+    * [Pull request #529](https://github.com/gazebosim/gz-cmake/pull/529)
+
+### Gazebo CMake 5.0.2 (2026-02-11)
+
+1. Add a Doxygen filter for .h files
+    * [Pull request #523](https://github.com/gazebosim/gz-cmake/pull/523)
+
+### Gazebo CMake 5.0.1 (2026-01-26)
+
+1. Fix dead material-design-lite links
+    * [Pull request #514](https://github.com/gazebosim/gz-cmake/pull/514)
+
 ### Gazebo CMake 5.0.0 (2025-09-30)
 
 1. **Baseline:** this includes all changes from 4.2.0 and earlier.
